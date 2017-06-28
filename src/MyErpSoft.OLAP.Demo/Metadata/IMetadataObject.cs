@@ -1,4 +1,5 @@
-﻿namespace MyErpSoft.OLAP.Metadata {
+﻿#if NOT_INCLUDED
+namespace MyErpSoft.OLAP.Metadata {
 
     /// <summary>
     /// 元数据成员的基础接口。
@@ -16,3 +17,4 @@
         string UniqueName { get; }
     }
 }
+#endif
